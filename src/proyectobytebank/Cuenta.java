@@ -4,7 +4,7 @@ public class Cuenta {
     double saldo;
     int agencia;
     int numero;
-    String titular;
+    Cliente titular = new Cliente(); //Referencia el atributo titular a la clase Cliente
 
 
     //Otra forma la variable parametro no es igual a atributos de la clase

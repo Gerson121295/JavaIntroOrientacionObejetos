@@ -4,3 +4,68 @@ https://github.com/alura-es-cursos/java-introduccion-objetos/tree/Clase-3
 
 ******** Java Orientacion a Objetos *******
 
+//Runtime no funciona-
+public class Direccion {
+
+    String calle;
+    String complemento;
+    String numero;
+    String vecindario;
+    String ciudad;
+    String codigoPostal;
+
+}
+
+public class Persona {
+
+    String nombre;
+    String numeroIdentidad;
+    int edad;
+    Direccion direccion;
+}
+
+----Como deberia de ser:
+public class Programa {
+
+    public static void main(String args[]) {
+
+        Persona p = new Persona();
+        p.nombre = "Paulo";
+        p.direccion.calle  = "Aveninda XYZ";
+    }
+}
+
+Verifique las opciones que contienen el cambio que hará que el código 
+funcione en tiempo de ejecución:
+
+
+public class Persona {
+
+    String nombre;
+    String numeroIdentidad;
+    int edad;
+    Direccion direccion = new Direccion();
+}
+
+Correcto. La inicialización de la propiedad de direccion se lleva a cabo 
+en la propia clase. De esa manera, el programador no tendrá que recordar 
+iniciarlo.
+
+public class Programa {
+    public static void main(String args[]) {
+
+        Persona p = new Persona();
+        p.nombre = "Paulo";
+        p.direccion = new Direccion();
+        p.direccion.calle  = "Aveninda XYZ";
+    }
+}
+
+Correcto. El cliente de la clase Persona, es decir, quien lo esté usando, 
+tuvo que asignar una instancia de Direccion a la propiedad p.direccion 
+para que no hubiera NullPointerException.
+
+
+
+
+
