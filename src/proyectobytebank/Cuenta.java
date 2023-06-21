@@ -8,6 +8,25 @@ public class Cuenta {
     private int numero;
     private Cliente titular = new Cliente(); //Referencia el atributo titular a la clase Cliente
 
+    //Este si permite numeros negativos, por lo que no se usa, se usa el modificado en nuestro proyecto.
+   // public Cuenta(){ } //Crear uno debido a que se creo uno modificado por lo que Java no lo puege generar automaticamente.
+
+    //static indica que esta variable no sera de la instancia si no de si no de la clase
+    private static int total=0; //para contar cuantas cuentas hay creadas
+    public Cuenta(int agencia){ //Metodo que retorna nuestro objeto Cuenta
+
+        //Validar que el atributo no sea menor a 0
+        if (agencia <= 0){
+            System.out.println("No se permite 0");
+            this.agencia = 1;
+        }else {
+            this.agencia=agencia;
+        }
+        total++;
+        System.out.println("Cuenta No. "+ total + " creadas");
+    }
+
+
 
     //Otra forma la variable parametro no es igual a atributos de la clase
 //   public void depositar(double valor){
@@ -46,7 +65,7 @@ public class Cuenta {
         return this.saldo;
     }
 
-    //Metodo para modificar set : asignar
+    //Metodo para modificar set : asignar  : eliminar ya que se agrego la validacion en el constructor para que se fuerze al pedir la informacion
     public void setAgencia(int agencia){
         if(agencia > 0 ){ //validacion para evitar ingresar numeros < 0
             this.agencia = agencia;
@@ -66,5 +85,9 @@ public class Cuenta {
 
     public Cliente getTitular() {
         return titular;
+    }
+
+    public static int getTotal(){
+        return Cuenta.total; //Acceder a la variable total desde un metodo
     }
 }

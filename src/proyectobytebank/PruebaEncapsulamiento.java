@@ -1,5 +1,7 @@
 package proyectobytebank;
 
+
+/*
 public class PruebaEncapsulamiento {
     public static void main(String[] args) {
         Cuenta cuenta = new Cuenta();
@@ -21,3 +23,5 @@ public class PruebaEncapsulamiento {
         //todas son referencias a new Cliente();
     }
 }
+
+*/

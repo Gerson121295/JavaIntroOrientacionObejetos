@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c60afb16-76c4-4320-b614-7058454a4f2d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/proyectobytebank/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectobytebank/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/proyectobytebank/CrearCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectobytebank/CrearCuenta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/proyectobytebank/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectobytebank/Cuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/proyectobytebank/PruebaMetodos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectobytebank/PruebaMetodos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/proyectobytebank/TestReferencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectobytebank/TestReferencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/proyectobytebank/TestReferencia2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectobytebank/TestReferencia2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/proyectobytebank/TestReferencia3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectobytebank/TestReferencia3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectobytebank/PruebaAcceso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectobytebank/PruebaAcceso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proyectobytebank/PruebaEncapsulamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proyectobytebank/PruebaEncapsulamiento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +49,7 @@
       <recent name="proyectobytebank" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PruebaEncapsulamiento">
+  <component name="RunManager" selected="Application.PruebaConstructor">
     <configuration name="PruebaAcceso" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="proyectobytebank.PruebaAcceso" />
       <module name="JavaIntroOrientacionObjetos" />
@@ -67,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PruebaEncapsulamiento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="proyectobytebank.PruebaEncapsulamiento" />
+    <configuration name="PruebaConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="proyectobytebank.PruebaConstructor" />
       <module name="JavaIntroOrientacionObjetos" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PruebaMetodos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="proyectobytebank.PruebaMetodos" />
+    <configuration name="PruebaEncapsulamiento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="proyectobytebank.PruebaEncapsulamiento" />
       <module name="JavaIntroOrientacionObjetos" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PruebaConstructor" />
         <item itemvalue="Application.PruebaEncapsulamiento" />
         <item itemvalue="Application.TestReferencia3" />
         <item itemvalue="Application.PruebaAcceso" />
         <item itemvalue="Application.TestReferencia2" />
-        <item itemvalue="Application.PruebaMetodos" />
       </list>
     </recent_temporary>
   </component>
