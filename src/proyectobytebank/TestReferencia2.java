@@ -1,5 +1,9 @@
 package proyectobytebank;
 
+
+/*
+
+
 public class TestReferencia2 {
     public static void main(String[] args) {
         Cliente gerson = new Cliente();
@@ -17,3 +21,5 @@ public class TestReferencia2 {
         System.out.println(gerson); //
     }
 }
+
+ */

@@ -1,5 +1,5 @@
 package proyectobytebank;
-
+/*
 public class CrearCuenta {
     public static void main(String[] args) {
         // Variable referencia = Valor
@@ -23,3 +23,4 @@ public class CrearCuenta {
     }
 }
 
+*/

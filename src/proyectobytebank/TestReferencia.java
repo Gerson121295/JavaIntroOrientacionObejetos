@@ -1,5 +1,7 @@
 package proyectobytebank;
 
+
+/*
 public class TestReferencia {
     public static void main(String[] args) {
         Cuenta primeraCuenta = new Cuenta();
@@ -23,3 +25,4 @@ public class TestReferencia {
         }
     }
 }
+*/

@@ -1,10 +1,12 @@
 package proyectobytebank;
 
+
+
 public class Cuenta {
-    double saldo;
-    int agencia;
-    int numero;
-    Cliente titular = new Cliente(); //Referencia el atributo titular a la clase Cliente
+    private double saldo; //cambio a private : encapsulamiento para que no se pueda obtener y modificar sin usar el metodo set o get
+    private int agencia;
+    private int numero;
+    private Cliente titular = new Cliente(); //Referencia el atributo titular a la clase Cliente
 
 
     //Otra forma la variable parametro no es igual a atributos de la clase
@@ -37,5 +39,32 @@ public class Cuenta {
             return true;
         }
         return false;
+    }
+
+    //Metodo para obtener get
+    public double getSaldo(){
+        return this.saldo;
+    }
+
+    //Metodo para modificar set : asignar
+    public void setAgencia(int agencia){
+        if(agencia > 0 ){ //validacion para evitar ingresar numeros < 0
+            this.agencia = agencia;
+        }else{
+            System.out.println("no estan permitidos valores negativos");
+        }
+    }
+
+    // Metodo getAgencia
+    public int getAgencia() {
+        return agencia;
+    }
+
+    public void setTitular(Cliente titular) {
+        this.titular = titular;
+    }
+
+    public Cliente getTitular() {
+        return titular;
     }
 }
